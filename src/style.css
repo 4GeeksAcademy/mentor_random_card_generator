@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+#card {
+  height: 375px;
+  width: 275px;
+  background-color: white;
+  border-radius: 12%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  font-size: 80px;
+  padding: 5px;
+}
+.suit {
+  padding: 0;
+  margin: 0;
+}
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottom {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: flex-end;
+}
